@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="heading">
+        <h2>Sign up page</h2>
+      </div>
+      <form action="#" id="formcontainer">
+        <div class="form" id="form">
+          <label for="username">username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            autocomplete="off"
+            placeholder="Enter your full name"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+          <small>error</small>
+        </div>
+        <div class="form" id="form">
+          <label for="email">email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="off"
+            placeholder="Enter your email"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+          <small>error</small>
+        </div>
+        <div class="form" id="form">
+          <label for="password">password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            autocomplete="off"
+            placeholder="Enter your password"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+          <small>error</small>
+        </div>
+        <div class="form" id="form">
+          <label for="confirm password">confirm password</label>
+          <input
+            type="password"
+            name="confirmpassword"
+            id="confirmpassword"
+            autocomplete="off"
+            placeholder="confirm your password"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+          <small>error</small>
+        </div>
+        <button id="submit">Sign in</button>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" placeholder="florinpop17" id="username" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Email</label>
+          <input type="email" placeholder="a@florin-pop.com" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Password</label>
+          <input type="password" placeholder="Password" id="password" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Password check</label>
+          <input type="password" placeholder="Password two" id="password2" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html> -->
